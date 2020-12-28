@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #333;
+}
+
+a:hover {
+    text-decoration: none;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #12d4e4;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+::selection {
+    color: #7CEDFA;
+    background-color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+#headerId {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    box-shadow: 6px -10px 20px 0px #655757;
+    z-index: 1;
+    height: 80px;
+    z-index: 10;
+}
+
+#logoRelative {
+    position: relative;
+}
+.logoBox{
+    display: block;
+}
+.logo {
+    width: 239px;
+    position: absolute;
+    top: -80px;
+    left: -37px;
+}
+
+.navBox {
+    display: block;
+    float: right;
+}
+
+.navBox li {
+    list-style: none;
+    display: inline-block;
+    margin: 23px 52px;
+}
+
+.navBox li:nth-child(3) {
+    margin-right: 0;
+}
+
+.navBox li a {
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #00cfe6;
+    font-size: 18px;
+}
+
+.navBox li a:hover {
+    color: #06abbd;
+}
+
+#legaliD{
+    background:linear-gradient(#003331a1,#08080800) , url(../images/banner7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color:#333;
+    width:100%;
+    height: 70vh;
+}
+
+.legalBox{
+    display: block;
+    margin-top: 20%;
+}
+.legalBox h2{
+    text-shadow: 1px 3px 0px #333;
+    font-size: 50px;
+}
+.legalBox p{
+    padding:0 100px;
+    font-weight: bold;
+}
+
+.legalCondetion h1, .legalCondetion h2, .legalCondetion h3, .legalCondetion h4, .legalCondetion h5, .legalCondetion h6{
+    text-align: left;
+    font-size: 25px;
+}
+.legalCondetion p{
+    font-size: 18px;
+}
+.legalCondetion b{
+    font-size: 20px;
+    margin: 20px 0;
+    display: block;
+}
+.legalCondetion ul li{
+    display: inline-block;
+    list-style: none;
+}
+.legalCondetion ul li a{
+    color: #0bd6ec;
+}
+.legalCondetion a{
+    color: #00cfe6;
+}
+/* ==============
+=========
+============
+============================= */
+#footerId {
+    background-color: #1D292E;
+}
+
+.footerBox a {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.companyIcon {}
+
+.companyIcon li {
+    display: inline-block;
+    margin: 0 7px;
+}
+
+.companyIcon li a {
+    display: block;
+    padding: 7px 12px;
+    color: #fff;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.companyIcon #facebook {
+    background-color: #3b5999;
+}
+
+.companyIcon #twitter {
+    background-color: #55acee;
+}
+
+.companyIcon #globe {
+    background-color: #EA4C89;
+}
+
+.companyIcon #instagram {
+    background-color: #517FA4;
+}
+
+.companyIcon #vimeo {
+    background-color: #4EBBFF;
+}
+
+.copyright {
+    display: block;
+    border-top: 1px solid #ffffff7a;
+}
+
+.copyright p {
+    text-align: center;
+    color: #f5f5f5a3;
+    padding: 5px 0;
+    margin: 0;
+
+}
+
+
+@media only screen and (max-width:768px){
+    .banner_detels {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-55%, -50%);
+        width: 78%;
+        -webkit-transform: translate(-55%, -50%);
+        -moz-transform: translate(-55%, -50%);
+        -ms-transform: translate(-55%, -50%);
+        -o-transform: translate(-55%, -50%);
+}
+    .banner_detels h1 {
+        font-size: 30px;
+    }
+    .navBox li {
+        margin: 23px 30px;
+    }
+
+}
+@media only screen and (max-width:425px){
+    .banner_detels {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-55%, -50%);
+        width: 78%;
+        -webkit-transform: translate(-55%, -50%);
+        -moz-transform: translate(-55%, -50%);
+        -ms-transform: translate(-55%, -50%);
+        -o-transform: translate(-55%, -50%);
+}
+    .banner_detels h1 {
+        font-size: 30px;
+        padding-right: 0%;
+    }
+    .banner_detels p{
+        font-size: 15px;
+    }
+    .banner_detels a {
+        padding: 1.5% 3%;
+        display: block;
+        width:80%;
+        margin-top: 10px;
+
+    }
+    #headerId {
+        height: 110px;
+
+    }
+    
+    .navBox li {
+        margin: 70px 30px;
+    }
+    .navBox li:nth-child(3) {
+        margin-right: 30px;
+    }
+    .navBox li a {
+        font-size: 16px;
+    }
+    .logo {
+        width: 180px;
+        position: absolute;
+        top: -50px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+
+}
+@media only screen and (max-width:425px){
+    .navBox li {
+        margin: 70px 30px;
+    }
+    .navBox li:nth-child(3) {
+        margin-right: 30px;
+    }
+    .legalBox h2{
+        font-size: 40px;
+    }
+    .legalBox p{
+        padding:0 20px;
+    }
+
+
+}
+@media only screen and (max-width:375px){
+    .navBox li {
+        margin: 70px 22px;
+    }
+    .navBox li:nth-child(3) {
+        margin-right: 22px;
+    }
+
+}
+@media only screen and (max-width:320px){
+    .navBox li {
+        margin: 70px 15px;
+    }
+    .navBox li:nth-child(3) {
+        margin-right: 15px;
+    }
+
+}
+
+
+
+
+
